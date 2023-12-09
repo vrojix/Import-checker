@@ -4,9 +4,9 @@ import subprocess
 def lib():
     # Define custom library names
     required_libraries = {
-        'ctk': 'tkinter',
+        'ctk': 'customtkinter',
         'tkmb': 'tkinter.messagebox',
-        'sqlite3': 'sqlite3',
+        'tk':'tkinter',
         'yagmail': 'yagmail'
     }
 
